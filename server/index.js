@@ -1,8 +1,8 @@
 import express from "express";
 import cookieParser from "cookie-parser";
-import cors from "cors";
+import cors from "cors"; // chia sẽ tài nguyên
 import http from "http";
-import mongoose from "mongoose";
+import mongoose from "mongoose"; // sử dụng connected với mongoose
 import "dotenv/config"; // đọc giá trị environment variables
 
 const app = express();
